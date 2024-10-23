@@ -156,7 +156,7 @@ function checkUserLoggedIn(){
 
 function removeCookie(name){
     console.log('called')
-    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
+    document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/pixel-perfect/Notes%20App/index.html";
 }
 
 function showLoginContainer(){
